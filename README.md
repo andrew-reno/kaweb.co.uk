@@ -1,11 +1,13 @@
 
-<h1>Wally's Widgets Developer Test</h1>
+<h1>Wally's Widgets Developer Test 29/01/22</h1>
 
 <ul> 
-	<li>Algorithm: 8 hours</li> 
-	<li>Testing: 5 hours</li>
-	<li>Installation: 2 hours</li>
-	<li>Interface and Laravel framework: 6 hours</li>
+	<li>Algorithm: 2 hours</li> 
+	<li>Testing: 1 hour</li>
+	<li>Web Installation: 1 hour</li>
+    <li>Git repo tasks: 1 hour</li>
+	<li>Interface and Laravel framework: 2 hours</li>
+    <li>Code review and optimise packaging 1 hour</li>
 </ul>
 </p>
  
