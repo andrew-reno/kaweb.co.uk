@@ -1,0 +1,392 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,600);
+
+/*
+colour scheme: 
+light green: #f0fff6
+comera green: #02b0a4;
+KC : #189c98;
+Duck egg: #cae8dc14
+Menu active hover drop: #e0fdfc
+*/
+
+.logo {
+    background-image: url(../images/orgs/KC_2020_100x100.jpg);
+} 
+
+.logo {
+    background-image: url(../images/orgs/KC_2020_100x100.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    
+    width: 100px;
+    height: 100px;
+ 
+}
+ 
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+    opacity: 0.8;
+    font-size: 1.1em;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active 
+{
+	color: #e0fdfc;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+      opacity: 1;
+}
+
+.dropdown-menu.show{
+	background-color: #02b0a4;
+}
+
+#div1{
+	width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+ .grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.noticeable{
+	color: #02b0a4;
+    margin: 0.5em 0em;
+}
+
+.disabled{
+	opacity: 0.5;
+	cursor:not-allowed;
+}
+form .notyet{
+  background-color:  lightblue;
+}
+ 
+html, body {
+  
+    color: #444;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+    background-color:  #ffffff;
+}
+
+h1, h2, h3, h4, h5{
+	    text-align: center;
+	    padding: 0.25em 1em;
+	    margin:0px;
+	    color: #189c98;
+	    font-size: 1.9em;
+}
+
+h2{font-size:1.6em}
+h3{font-size:1.25em}
+h4{font-size:1.2em}
+h5{font-size:1.1em}
+
+.btn-primary{
+	background-color: #189c98;	
+}
+  
+.btn-primary:hover {
+  color: #fff;
+  background-color: #02b0a4;
+  border-color: #189c98;
+}
+
+.bg-primary {
+    background-color: #02b0a4 !important;
+}
+
+a{
+	color: #189c98;
+}
+
+a:hover {
+  color: #02b0a4;
+  text-decoration: underline;
+}
+
+.course_title,.course_important, .course_info {
+    text-align: center;
+    font-size: 1.5em;
+    color: #444;
+    padding: 0.5em;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px white;
+}
+.course_info{
+	font-size: 1.1em;
+	 padding: 0;
+	 color: #888;
+}
+.course_important{
+	font-size: 1.1em;
+	 padding: 0;
+  	
+}
+.course_description {
+    text-align: justify;
+    font-size: 1.0em;
+    color: black;
+    padding: 0.5em;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px white;
+}
+
+.formMiniButton
+{
+	width: auto;
+    margin: 1em 0em;
+}
+.alert{
+	color:#444;
+	font-size: 1.5em;
+	text-align: center;
+	text-shadow: -1px 0px 0px white;
+	
+}
+
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+ 
+ .alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+input, textarea, .form-group{
+	width: 100%;
+}
+
+input[type=checkbox], input[type=radio], input[type=date]{
+	width: auto;
+} 
+
+input[type=checkbox].statusEdit{
+	width: 20px;
+	height: 20px;	
+	vertical-align: text-top;
+}
+
+.formContainer, .textContainer{
+	margin: 	0 auto;
+    display:	block;
+    width: 		80%;
+    max-width:  1980px;
+    min-width:  320px;
+    border: 	1px solid #efefee;
+    padding: 	16px;
+    color: 		#444;
+    font-weight: bold;
+    font-size:	1em;
+}
+
+.textContainer{
+	border: none;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    font-weight: bold;
+}
+
+th{
+	    font-size: 1.2em;
+}
+table tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+table tr {
+    color: #444;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+    
+.sortable {
+    cursor: pointer;
+}
+ 
+.sortable:after{
+	float: right;
+	background-color: transparent;
+	opacity: 0.7; 
+	content: " "; 
+	background-image: url(../icons/sort_24_white.png?v=3);
+	width:20px;
+	height:23px;
+}
+
+
+#searchTable, #searchAZ {
+    background-image: url(../icons/searchicon.png);
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+    padding: 8px 20px 8px 42px;
+    border: 1px solid #ddd;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+ .filterButton{
+ 	padding: 1em;
+    margin: 1em;
+}
+
+
+table th {
+    color: white;
+     background-color: #9cad9d;
+    padding: 0.5em 0.5em;
+    font-size: 1.1em;
+    vertical-align: top;
+    text-align: left;
+    text-transform: uppercase;
+}
+ 
+ 
+ .delete_icon{
+	font-size: 11px;
+	padding: 4px;
+	float: right;
+}
+.delete_icon:after, .remove_icon:after {
+    content: " \00274C ";
+    display: block;
+    text-align: center;
+    padding: 4px;
+    display: inline-block;
+}
+.delete_icon:hover, .remove_icon:hover {
+    background-color: #dc3545;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color 
+    .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.clearfilterButton
+{
+	font-size: 11px;
+	position: absolute;
+    margin: 0;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 25px;
+}
+
+.filterContracts, .filterLocation{
+	
+    font-size: 1.1em;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid #ddd;
+    margin-right: 2em;
+    width: 200px;
+}    
+
+.filterLabel{
+	 font-size: 1.1em;
+	font-weight: bold;
+	text-align:  left;
+}
+
+.formWidgets{
+	display: inline-block;
+	display: inline-block;
+    background-color: #eee;
+    padding: 1em;
+    min-width: 300px;
+}
+
+legend{
+	width: auto;
+	padding: 0em 1em;
+	font-size: 1.2em;
+	margin: 0em;
+}
+
+fieldset
+{
+    padding: 1em;
+    min-width: auto;
+    border: 1px solid #aaa;
+    margin-bottom: 1em;
+}
+
