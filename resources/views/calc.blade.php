@@ -70,7 +70,7 @@
 						<input type="submit" class="submitButton" id="formCalc" aria-label="Calculate" name="calc" value="Calc">
 				</form>
 				
-				<div class="help" title="When the cost of packaging is more than the goods.">1) Send the minimum number of units to full the order quantity. <br/> 2) Reduce the amount of packaging, send fewer cartons. </div>
+				<div class="help" title="When the cost of packaging is more than the goods.">1)Send the minimum number of units to fullfil the order quantity. <br/> 2) Reduce the amount of packaging, send fewer cartons. </div>
 			 <!-- END CREATE CALC VIEW  --></div> 
    
     </body>
